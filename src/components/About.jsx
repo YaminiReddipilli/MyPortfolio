@@ -13,7 +13,7 @@ const About = () => {
                     <div className="space-y-4">
                         <div className="flex items-center">
                             <label htmlFor="htmlandcss" className="w-2/12">
-                                HTML & CSS
+                                MERN
                             </label>
                             <div className="grow bg-gray-800 rounded-full h-2.5">
                                 <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-10/12"></div>
@@ -21,7 +21,7 @@ const About = () => {
                         </div>
                         <div className="flex items-center">
                             <label htmlFor="htmlandcss" className="w-2/12">
-                                React JS
+                                HTML, CSS & JS
                             </label>
                             <div className="grow bg-gray-800 rounded-full h-2.5">
                                 <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-11/12"></div>
@@ -29,7 +29,7 @@ const About = () => {
                         </div>
                         <div className="flex items-center">
                             <label htmlFor="htmlandcss" className="w-2/12">
-                                Node JS
+                                Programming
                             </label>
                             <div className="grow bg-gray-800 rounded-full h-2.5">
                                 <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-9/12"></div>
@@ -43,18 +43,18 @@ const About = () => {
                             </h3>
                             <p>Years Experience</p>
                         </div>
-                        <div>
+                        {/* <div>
                             <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
                                 50+
                             </h3>
                             <p>Projects Completed</p>
-                        </div>
-                        <div>
+                        </div> */}
+                        {/* <div>
                             <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
                                 10+
                             </h3>
                             <p>Happy Clients</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

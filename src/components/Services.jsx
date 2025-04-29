@@ -23,14 +23,14 @@ const services = [
   },
   {
     id: 5,
-    title: "Content Writing",
-    description: "Writing content for your business and companies.",
+    title: "Programming",
+    description: "I have experience developing backend services and automation scripts using Java and Python, leveraging their strong libraries and frameworks. I use them to build scalable applications, perform data processing, and implement efficient service logic.",
   },
-  {
-    id: 6,
-    title: "Digital Marketing",
-    description: "Promote your business with our digital marketing team.",
-  },
+  // {
+  //   id: 6,
+  //   title: "Digital Marketing",
+  //   description: "Promote your business with our digital marketing team.",
+  // },
 ];
 
 const Service = () => {

@@ -5,24 +5,24 @@ import myFavCity from "../assets/my-fav-city-blog.png";
 const projects = [
   {
     id: 1,
-    name: "Employee MS",
-    technologies: "MERN Stack",
+    name: "ToDo List Application",
+    technologies: "React JS",
     image: todoList,
-    github: "https://github.com/YouafKhan1",
+    github: "https://yaminireddipilli.github.io/ToDo-List-Application/",
   },
   {
     id: 2,
-    name: "Blog App",
-    technologies: "MERN Stack",
+    name: "My Favourite City Blog",
+    technologies: "HTML & CSS",
     image: myFavCity,
-    github: "https://github.com/YouafKhan1",
+    github: "https://yaminireddipilli.github.io/MyFavouriteCity/",
   },
   {
     id: 3,
-    name: "Book MS",
-    technologies: "MERN Stack",
+    name: "ToDo List Application",
+    technologies: "React JS",
     image: todoList,
-    github: "https://github.com/YouafKhan1",
+    github: "https://yaminireddipilli.github.io/ToDo-List-Application/",
   },
 ];
 
