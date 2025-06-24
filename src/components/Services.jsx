@@ -4,33 +4,33 @@ const services = [
   {
     id: 1,
     title: "Full-Stack Development",
-    description: "I build complete web solutions, handling both front-end and back-end development. From responsive designs to robust server-side logic, I deliver seamless digital experiences.",
+    description:
+      "I build full-fledged web applications, managing everything from responsive front-end interfaces to secure and scalable server-side logic using modern stacks.",
   },
   {
     id: 2,
     title: "Android Development",
-    description: "I develop powerful Android applications using Android Studio, the official IDE for Android. From UI design to app deployment, I create smooth, high-performance mobile experiences.",
+    description:
+      "I create efficient and intuitive Android apps using Android Studio, focusing on performance, usability, and real-world deployment practices.",
   },
   {
     id: 3,
-    title: "Poster Making",
-    description: "I design creative and impactful posters that visually communicate ideas and messages. From events to promotions, I craft posters that capture attention and inspire action.",
+    title: "Poster Design",
+    description:
+      "I design striking and informative posters tailored for events, promotions, and branding, blending creativity with clear visual messaging.",
   },
   {
     id: 4,
     title: "Frontend Development",
-    description: "I create responsive and engaging user interfaces using modern web technologies. From design to deployment, I ensure seamless and interactive user experiences.",
+    description:
+      "I develop clean, responsive, and interactive UIs with technologies like React and Tailwind, ensuring seamless user experiences across all devices.",
   },
   {
     id: 5,
     title: "Programming",
-    description: "I have experience developing backend services and automation scripts using Java and Python, leveraging their strong libraries and frameworks. I use them to build scalable applications, perform data processing, and implement efficient service logic.",
+    description:
+      "I build robust backends and utility scripts using Java and Python, with experience in automation, data processing, and scalable system design.",
   },
-  // {
-  //   id: 6,
-  //   title: "Digital Marketing",
-  //   description: "Promote your business with our digital marketing team.",
-  // },
 ];
 
 const Service = () => {
@@ -40,11 +40,21 @@ const Service = () => {
         <h2 className="text-4xl font-bold text-center mb-12">My Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
-            <div key={service.id} className="bg-gray-800 px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform duration-300 hover:scale-105">
-              <div className="text-right text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-400"> {service.id} </div>
-              <h3 className="mt-2 text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"> {service.title} </h3>
-              <p className="mt-2 text-gray-300">{service.description}</p>
-              {/* <a href="#" className="mt-4 inline-block text-green-400 hover:text-blue-500">Read More</a> */}
+            <div
+              key={service.id}
+              className="bg-gray-800 px-6 py-6 rounded-lg hover:shadow-xl transform transition-transform duration-300 hover:scale-105 flex flex-col justify-between h-[230px]"
+            >
+              <div>
+                <div className="text-right text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-400">
+                  {service.id}
+                </div>
+                <h3 className="mt-2 text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+                  {service.title}
+                </h3>
+                <p className="mt-3 text-gray-300 text-sm leading-relaxed">
+                  {service.description}
+                </p>
+              </div>
             </div>
           ))}
         </div>

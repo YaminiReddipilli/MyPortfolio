@@ -9,6 +9,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Service from './components/Services'
+import Education from './components/Education';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Education />
       <Service />
       <Projects/>
       <Contact/>

@@ -1,6 +1,7 @@
 import React from "react";
 import todoList from "../assets/to-do-list.png";
 import myFavCity from "../assets/my-fav-city-blog.png";
+import textToImg from "../assets/txt-to-img.png";
 
 const projects = [
   {
@@ -19,10 +20,10 @@ const projects = [
   },
   {
     id: 3,
-    name: "ToDo List Application",
+    name: "Text To Image Generator",
     technologies: "React JS",
-    image: todoList,
-    github: "https://yaminireddipilli.github.io/ToDo-List-Application/",
+    image: textToImg,
+    github: "https://text-to-image-generator-hazel.vercel.app/",
   },
 ];
 
