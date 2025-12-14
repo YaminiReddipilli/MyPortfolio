@@ -6,10 +6,10 @@ import textToImg from "../assets/txt-to-img.png";
 const projects = [
   {
     id: 1,
-    name: "ToDo List Application",
+    name: "Text To Image Generator",
     technologies: "React JS",
-    image: todoList,
-    github: "https://yaminireddipilli.github.io/ToDo-List-Application/",
+    image: textToImg,
+    github: "https://dreampixel-texttoimagegenerator-static.onrender.com/",
   },
   {
     id: 2,
@@ -20,10 +20,10 @@ const projects = [
   },
   {
     id: 3,
-    name: "Text To Image Generator",
+    name: "ToDo List Application",
     technologies: "React JS",
-    image: textToImg,
-    github: "https://text-to-image-generator-hazel.vercel.app/",
+    image: todoList,
+    github: "https://yaminireddipilli.github.io/ToDo-List-Application/",
   },
 ];
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import HeroImage from '../assets/my-photo.jpg';
-import resume from '../assets/YaminiReddipilli-Resume.pdf';
+import resume from '../assets/YaminiReddipilli_Resume.pdf';
 import backgroundVideo from '../assets/portfolio_background.mp4';
 
 const Hero = () => {
