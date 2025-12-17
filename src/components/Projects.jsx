@@ -1,5 +1,5 @@
 import React from "react";
-import personalFinanceTracker from "../assets/personal-finance-tracker";
+import personalFinanceTracker from "../assets/personal-finance-tracker.png";
 import myFavCity from "../assets/my-fav-city-blog.png";
 import textToImg from "../assets/txt-to-img.png";
 
