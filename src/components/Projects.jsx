@@ -1,5 +1,5 @@
 import React from "react";
-import todoList from "../assets/to-do-list.png";
+import personalFinanceTracker from "../assets/personal-finance-tracker";
 import myFavCity from "../assets/my-fav-city-blog.png";
 import textToImg from "../assets/txt-to-img.png";
 
@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     name: "Personal Finance Tracker",
     technologies: "MERN",
-    image: myFavCity,
+    image: personalFinanceTracker,
     github: "https://personalfinancetracker-static.onrender.com",
   },
   {
