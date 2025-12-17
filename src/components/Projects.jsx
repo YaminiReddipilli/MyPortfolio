@@ -7,9 +7,16 @@ const projects = [
   {
     id: 1,
     name: "Text To Image Generator",
-    technologies: "React JS",
+    technologies: "MERN",
     image: textToImg,
     github: "https://dreampixel-texttoimagegenerator-static.onrender.com/",
+  },
+  {
+    id: 2,
+    name: "Personal Finance Tracker",
+    technologies: "MERN",
+    image: myFavCity,
+    github: "https://personalfinancetracker-static.onrender.com",
   },
   {
     id: 2,
@@ -17,13 +24,6 @@ const projects = [
     technologies: "HTML & CSS",
     image: myFavCity,
     github: "https://yaminireddipilli.github.io/MyFavouriteCity/",
-  },
-  {
-    id: 3,
-    name: "ToDo List Application",
-    technologies: "React JS",
-    image: todoList,
-    github: "https://yaminireddipilli.github.io/ToDo-List-Application/",
   },
 ];
 
